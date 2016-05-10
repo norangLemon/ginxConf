@@ -9,3 +9,5 @@ sudo ln -sf "$PWD/nginx.conf" /etc/nginx/nginx.conf
 ```
 sudo nginx -t -c /etc/nginx/nginx.conf
 ```
+
+[References](http://nginx.org/en/docs/)
