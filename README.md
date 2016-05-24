@@ -10,4 +10,9 @@ sudo ln -sf "$PWD/nginx.conf" /etc/nginx/nginx.conf
 sudo nginx -t -c /etc/nginx/nginx.conf
 ```
 
+* 재시작
+```
+sudo service nginx reload
+```
+
 [References](http://nginx.org/en/docs/)
