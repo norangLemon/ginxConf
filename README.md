@@ -3,6 +3,7 @@ nginx.conf
 * 심링크 만들기
 ```
 sudo ln -sf "$PWD/nginx.conf" /etc/nginx/nginx.conf
+sudo ln -sf "$PWD/virtual.conf" /etc/nginx/conf.d/virtual.conf
 ```
 
 * 문법 검사
