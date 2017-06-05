@@ -44,4 +44,6 @@ sudo nginx -t -c /etc/nginx/nginx.conf
 sudo service nginx reload
 ```
 
+
+[보안 검사](https://www.ssllabs.com/ssltest/)
 [References](http://nginx.org/en/docs/)
