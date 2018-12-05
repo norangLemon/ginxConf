@@ -13,8 +13,9 @@ server {
   ssl_certificate /etc/letsencrypt/live/norang.io/fullchain.pem;
   ssl_certificate_key /etc/letsencrypt/live/norang.io/privkey.pem;
   ssl_trusted_certificate /etc/letsencrypt/live/norang.io/chain.pem;
+
   location / {
-    root /home/norang/norang.io/public;
+     root /home/norang/blog/hexo/norang.io/public;
     index index.html;
   }
 }
