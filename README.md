@@ -29,6 +29,7 @@ sudo ln -sf /etc/nginx/sites-available/[TARGET_CONF] /etc/nginx/sites-enabled/[T
 
 * 사용 가능한 전체를 활성화
 ```
+# REMOVE TARGET DIRECTORY FIRST, IF EXISTS #
 sudo ln -sf /etc/nginx/sites-available/* /etc/nginx/sites-enabled/
 ```
 
